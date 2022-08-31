@@ -7,5 +7,5 @@ function Delete(){
 }
 
 function Calculate(){
-    calculatorForm.screen.value = eval(calculatorForm.screen.value)
+    calculatorForm.screen.value = eval(calculatorForm.screen.value);
 }
