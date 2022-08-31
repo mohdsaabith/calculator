@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="main">
-        <form class="calculator-form" name="calculator-form">
+        <form class="calculatorForm" name="calculatorForm">
             <div class="screen">
                 <input type="text" name="screen" readonly>
             </div>
@@ -22,7 +22,7 @@
                 <input type="button" class="numbers" name="mul" value="x" onclick="valueButton(this);">
                 <input type="button" class="numbers" name="sub" value="-" onclick="valueButton(this);">
                 <input type="button" class="numbers" name="plus" value="+" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="div" value="DEL" onclick="Delete();">
+                <input type="button" class="numbers" name="delete" value="DEL" onclick="Delete();">
             </div>
 
             <div class="btn">
@@ -44,9 +44,9 @@
             </div>
 
             <div class="btn">
-                <input type="button" class="number" name="num1" value="0" onclick="valueButton(this);">
-                <input type="button" class="number" name="num2" value="." onclick="valueButton(this);">
-                <input type="button" class="number" name="num3" value="=" onclick="valueButton(this);">
+                <input type="button" class="number" name="num0" value="0" onclick="valueButton(this);">
+                <input type="button" class="number" name="" value="." onclick="valueButton(this);">
+                <input type="button" class="number" name="equal" value="=" onclick="Calculate()">
             </div>
 
         </form>
