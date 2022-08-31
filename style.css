@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #091921;
+    background-color: white;
 }
 
 .main{
@@ -41,4 +41,21 @@ body{
     font-size: 25px;
     font-weight: 500;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.numbers{
+    color: white;
+    background-color: #091921;
+    border: 1px solid rgb(34, 109, 194);
+}
+
+.alri{
+    background-color: #ff3077;
+    color: white;
+}
+
+.screenIn{
+    background-color: #091921;
+    color: white;
+    text-align: end;
 }
