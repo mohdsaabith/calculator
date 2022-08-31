@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" type="text/css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" type="text/css">
+    <title>Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+
+
     <div class="main">
+       <div class="calculator"> 
         <form class="calculatorForm" name="calculatorForm">
             <div class="screen">
                 <input type="text" class="screenIn" name="screen" readonly>
@@ -44,16 +47,16 @@
             </div>
 
             <div class="btn">
-                <input type="button" class="numbers" name="num0" value="0" onclick="valueButton(this);">
+                <input type="button" class="numbers bottom-1" name="num0" value="0" onclick="valueButton(this);">
                 <input type="button" class="numbers" name="" value="." onclick="valueButton(this);">
-                <input type="button" class="numbers" name="equal" value="=" onclick="Calculate()">
+                <input type="button" class="numbers bottom-2" name="equal" value="=" onclick="Calculate()">
             </div>
 
         </form>
     </div>
 
+</div>
 
-
-    <script src="./script.js"></script>
+    <script src="./Assets/js/script.js"></script>
 </body>
 </html>
