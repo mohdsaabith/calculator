@@ -13,49 +13,50 @@
 <body>
 
 
-    <div class="main">
-       <div class="calculator"> 
-        <form class="calculatorForm" name="calculatorForm">
-            <div class="screen">
-                <input type="text"  id="screenIn" name="screen" >
-            </div>
 
-            <div class="btn">
-                <input type="button" class="alri" name="div" value="/" onclick="valueButton(this);">
-                <input type="button" class="alri" name="mul" value="*" onclick="valueButton(this);">
-                <input type="button" class="alri" name="sub" value="-" onclick="valueButton(this);">
-                <input type="button" class="alri" name="plus" value="+" onclick="valueButton(this);">
-                <input type="button" class="alri" name="delete" value="DEL" onclick="Delete();">
-            </div>
 
-            <div class="btn">
-                <input type="button" class="numbers" name="num1" value="1" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num2" value="2" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num3" value="3" onclick="valueButton(this);">
-            </div>
+    <section>
+  <div class="container">
+    <div class="calculator">
+      <div class="display">
+        <div class="display-1">0</div>
+        <div class="display-2">0</div>
+        <div class="temp-result"></div>
+      </div>
 
-            <div class="btn">
-                <input type="button" class="numbers" name="num4" value="4" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num5" value="5" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num6" value="6" onclick="valueButton(this);">
-            </div>
+      <div class="all_button">
+        <div class="button operation ari">/</div>
+        <div class="button operation ari">x</div>
+        <div class="button operation ari">-</div>
+        <div class="button operation ari">+</div>
+        <div class="button all-clear ari">C</div>
+      </div>
 
-            <div class="btn">
-                <input type="button" class="numbers" name="num7" value="7" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num8" value="8" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="num9" value="9" onclick="valueButton(this);">
-            </div>
+      <div class="all_button_no">
+        <div class="button number no">1</div>
+        <div class="button number no">2</div>
+        <div class="button number no">3</div>
+      </div>
 
-            <div class="btn">
-                <input type="button" class="numbers bottom-1" name="num0" value="0" onclick="valueButton(this);">
-                <input type="button" class="numbers" name="" value="." onclick="valueButton(this);">
-                <input type="button" class="numbers bottom-2" name="equal" value="=" onclick="Calculate()">
-            </div>
+      <div class="all_button_no">
+        <div class="button number no">4</div>
+        <div class="button number no">5</div>
+        <div class="button number no">6</div>
+      </div>
 
-        </form>
+      <div class="all_button_no">
+        <div class="button number no">7</div>
+        <div class="button number no">8</div>
+        <div class="button number no">9</div>
+      </div>
+      <div class="all_button_no">
+        <div class="button btn-0 number no">0</div>
+        <div class="button number dot no">.</div>
+        <div class="button equal no">=</div>
+      </div>
     </div>
-
-</div>
+  </div>
+</section>
 
     <script src="./Assets/js/script.js"></script>
 </body>

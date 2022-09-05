@@ -1,78 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-body{
-    background-color: white;
+html {
+  font-family: "Montserrat", sans-serif;
 }
-
-.main{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+section {
  
-    
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  max-width: 400px;
+ background-color: #091921;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.display {
+   background-color: rgb(30, 43, 46);
+   color: white;
+  height: 100px;
+  width: 100%;
+  text-align: right;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+  
+}
+
+.display-1 {
+  opacity: 0.4;
+  font-size: 20px;
+  height: 20px;
+  overflow: hidden;
+  display: none;
+
+}
+.temp-result {
+    display: none;
+  position: absolute;
+  bottom: 0;
+  left: 10;
+  font-size: 20px;
+  opacity: 0.3;
+}
+.all_button {
+  color: whitesmoke;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(5, 1fr);
+  background-color: #ff3077;
+  
+}
+
+.all_button_no{
+  color: whitesmoke;
+  display: grid;
+  grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+}
+
+.button {
+  
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(30, 43, 46);
 }
 
 
-
-
-.main .calculatorForm{
-    width: 350px;
-    height: 450px;
-    position: relative;
-    border: 0.1px solid rgba(0, 0, 0, 0.1);
-    font-size: 25px;
-    font-weight: 500;
-    
-}
-
-.main .calculatorForm div{
-    width: 100%;
-    height: calc(450px/6);
-    display: flex;
-    flex: 1;
-    
-}
-
-.main .calculatorForm div input {
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    font-weight: 500;
-    border: 0.1px solid rgba(0, 0, 0, 0.1);
-    
-}
-
-.numbers{
-    color: white;
-    background-color: #091921;
-    border: 0.1px solid rgb(34, 109, 194);
-}
-
-.alri{
-    background-color: #ff3077;
-    color: white;
-}
-
-#screenIn{
-    background-color: #091921;
-    color: white;
-    text-align: end;
-    padding-right: 20px;
-    border-radius: 12px 12px 0 0;
-}
-
-.bottom-1{
-    border-radius: 0 0 0 12px ;
-}
-
-.bottom-2{
-    border-radius: 0 0 12px 0;
-}
