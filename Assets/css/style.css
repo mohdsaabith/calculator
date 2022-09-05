@@ -73,8 +73,5 @@ section {
   font-size: 30px;
   cursor: pointer;
 }
-.button:hover {
-  background-color: rgb(30, 43, 46);
-}
 
 
